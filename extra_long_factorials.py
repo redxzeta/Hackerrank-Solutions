@@ -1,8 +1,12 @@
-import math
-import os
-import random
-import re
-import sys
+
+
+"""
+Name          : Extra Long Factorials 
+Category      : Algorithms
+Difficulty    : Medium
+Language      : Python3
+Question Link : https://www.hackerrank.com/challenges/extra-long-factorials/problem
+"""
 
 # Complete the extraLongFactorials function below.
 def extraLongFactorials(n):
@@ -13,8 +17,3 @@ def extraLongFactorials(n):
         for i in range (1,n+1):
             count = count * i
     print (count)
-
-if __name__ == '__main__':
-    n = int(input())
-
-    extraLongFactorials(n)
